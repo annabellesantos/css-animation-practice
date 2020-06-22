@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #333333;
+  background-color: #ffffff;
 }
 
 .box_topleft {
@@ -14,7 +14,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  animation: circle-topleft 3s infinite ease-out;
+  animation: circle-topleft 4s infinite ease-out;
 }
 .box_topleft:hover {
   border: 1px solid white;
@@ -27,7 +27,7 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  animation: circle-topright 3s infinite ease-out;
+  animation: circle-topright 4s infinite ease-out;
 }
 .box_topright:hover {
   border: 1px solid white;
@@ -40,7 +40,7 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  animation: circle-bottomleft 3s infinite ease-out;
+  animation: circle-bottomleft 4s infinite ease-out;
 }
 .box_bottomleft:hover {
   border: 1px solid white;
@@ -53,7 +53,7 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
-  animation: circle-bottomright 3s infinite ease-out;
+  animation: circle-bottomright 4s infinite ease-out;
 }
 .box_bottomright:hover {
   border: 1px solid white;

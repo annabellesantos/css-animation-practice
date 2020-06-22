@@ -2,6 +2,9 @@
   height: 100px;
   width: 100px;
   position: absolute;
+  &:hover {
+    border: 1px solid white;
+  }
 }
 
 * {
@@ -9,17 +12,14 @@
   margin: 0;
 }
 body {
-  background-color: #333333;
+  background-color: #ffffff;
 }
 .box_topleft {
   background-color: lightcoral;
   @include box();
   top: 0;
   left: 0;
-  animation: circle-topleft 3s infinite ease-out;
-  &:hover {
-    border: 1px solid white;
-  }
+  animation: circle-topleft 4s infinite ease-out;
 }
 
 .box_topright {
@@ -27,10 +27,7 @@ body {
   @include box();
   top: 0;
   right: 0;
-  animation: circle-topright 3s infinite ease-out;
-  &:hover {
-    border: 1px solid white;
-  }
+  animation: circle-topright 4s infinite ease-out;
 }
 
 .box_bottomleft {
@@ -38,10 +35,7 @@ body {
   @include box();
   bottom: 0;
   left: 0;
-  animation: circle-bottomleft 3s infinite ease-out;
-  &:hover {
-    border: 1px solid white;
-  }
+  animation: circle-bottomleft 4s infinite ease-out;
 }
 
 .box_bottomright {
@@ -49,10 +43,7 @@ body {
   @include box();
   bottom: 0;
   right: 0;
-  animation: circle-bottomright 3s infinite ease-out;
-  &:hover {
-    border: 1px solid white;
-  }
+  animation: circle-bottomright 4s infinite ease-out;
 }
 
 /* animation keyframes */
