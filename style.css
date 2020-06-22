@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #333333;
+}
+
+.box_topleft {
+  background-color: lightcoral;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: circle-topleft 3s infinite ease-out;
+}
+.box_topleft:hover {
+  border: 1px solid white;
+}
+
+.box_topright {
+  background-color: lightblue;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  animation: circle-topright 3s infinite ease-out;
+}
+.box_topright:hover {
+  border: 1px solid white;
+}
+
+.box_bottomleft {
+  background-color: lightgreen;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  animation: circle-bottomleft 3s infinite ease-out;
+}
+.box_bottomleft:hover {
+  border: 1px solid white;
+}
+
+.box_bottomright {
+  background-color: lightgoldenrodyellow;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  animation: circle-bottomright 3s infinite ease-out;
+}
+.box_bottomright:hover {
+  border: 1px solid white;
+}
+
+/* animation keyframes */
+@keyframes circle-topleft {
+  100% {
+    top: 50%;
+    left: 50%;
+    background-color: black;
+    border-radius: 0 0 100% 0;
+  }
+}
+@keyframes circle-topright {
+  100% {
+    top: 50%;
+    right: 50%;
+    background-color: black;
+    border-radius: 0 0 0 100%;
+  }
+}
+@keyframes circle-bottomleft {
+  100% {
+    bottom: 50%;
+    left: 50%;
+    background-color: black;
+    border-radius: 0 100% 0 0;
+  }
+}
+@keyframes circle-bottomright {
+  100% {
+    bottom: 50%;
+    right: 50%;
+    background-color: black;
+    border-radius: 100% 0 0 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
